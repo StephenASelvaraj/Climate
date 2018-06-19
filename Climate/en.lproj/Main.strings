@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Temperature"; ObjectID = "55o-QU-8Dg"; */
+"55o-QU-8Dg.text" = "Temperature";
+
+/* Class = "UIButton"; normalTitle = "-->"; ObjectID = "E8i-6q-EyS"; */
+"E8i-6q-EyS.normalTitle" = "-->";
+
+/* Class = "UIButton"; normalTitle = "<---"; ObjectID = "Xnu-fV-xjV"; */
+"Xnu-fV-xjV.normalTitle" = "<---";
+
+/* Class = "UILabel"; text = "City Name"; ObjectID = "t59-wS-twj"; */
+"t59-wS-twj.text" = "City Name";
+
+/* Class = "UILabel"; text = "City Name"; ObjectID = "y3m-qc-ghe"; */
+"y3m-qc-ghe.text" = "City Name";
