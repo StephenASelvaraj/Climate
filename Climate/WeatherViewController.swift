@@ -15,18 +15,14 @@ class WeatherViewController: UIViewController , CLLocationManagerDelegate, Chang
 
     let weatherURL = "http://api.openweathermap.org/data/2.5/weather"
     
-    let APP_ID = "ba26559864aba797f0eb191d148c17c2"
-    
-        
-
-    
+    let APP_ID = "getitfromabove url"
+ 
     @IBOutlet weak var City: UILabel!
     @IBOutlet weak var Temperature: UILabel!
     
     @IBOutlet weak var WeatherIcon: UIImageView!
     
     let locationManager = CLLocationManager()
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -85,21 +81,14 @@ class WeatherViewController: UIViewController , CLLocationManagerDelegate, Chang
             Temperature.text = String(tempresult-273.15)
             City.text = json["name"].stringValue
             
-        }
-
-        
-        
-        
-        
-        
+        }     
     }
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         City.text = "Error"
     }
     
-    //TODO : Call the URL
-    
+
     func userEnteredCity(city: String) {
         print (city)
         
